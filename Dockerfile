@@ -18,7 +18,7 @@ FROM eclipse-temurin:17-jdk-jammy
 WORKDIR /app
 
 # Copy the jar file from the build stage
-COPY --from=build /app/target/thea-security-oauth-0.0.1-SNAPSHOT.jar app.jar
+COPY --from=build /app/target/thea-security-oauth.jar app.jar
 
 # Expose the port the application will run on
 EXPOSE 8080
