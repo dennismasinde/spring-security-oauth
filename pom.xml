@@ -77,6 +77,8 @@
 				</configuration>
 			</plugin>
 		</plugins>
+
+		<finalName>thea-security-oauth</finalName>
 	</build>
 
 </project>
