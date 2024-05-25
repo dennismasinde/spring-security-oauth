@@ -4,6 +4,8 @@ services:
 
   app:
     build: .
+    env_file:
+      - .env
     environment:
       DB_HOST: ${DB_HOST}
       DB_PORT: ${DB_PORT}
